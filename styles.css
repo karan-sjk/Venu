@@ -1,0 +1,21 @@
+h1{
+  color: #FFFFFFe;
+}
+body{
+  background-color: #00FFFF;
+  width: 80%;
+}
+.age, .but, .eml, .naam,.passw{
+  text-align: center;
+  margin-top: 20px;
+
+}
+.image{
+  margin-left: 200px;
+}
+img{
+  background-color: white;
+}
+.pad{
+  padding-right: 10px;
+}
