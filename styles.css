@@ -7,6 +7,9 @@ h1{
   font-size:4rem;
   border-radius:50%;
 }
+h3{
+  color:white;
+}
 h1:hover{
   background-color: white;
   color: #0E9EAD;
