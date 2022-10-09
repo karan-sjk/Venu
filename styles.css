@@ -1,0 +1,80 @@
+h1{
+  background-color: #0E9EAD;
+  color: white;
+  margin : 30px 100px 50px 100px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size:4rem;
+  border-radius:50%;
+}
+h1:hover{
+  background-color: white;
+  color: #0E9EAD;
+}
+.age:hover{
+  background-color: #ff0080;
+  color: white;
+}
+body{
+  background-color: #ff0080;
+}
+img{
+  border-radius:00%;
+  width: 66%;
+}
+
+.age, .but, .eml, .naam,.passw{
+  text-align: center;
+  margin-top: 30px;
+}
+.pics{
+  position:absolute;
+  margin-left: 200px;
+  margin-right: 100px;
+}
+.age{
+  background-color:#0E9EAD;
+  margin: 100px 80px 40px 600px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size:2rem;
+  color: white;
+  border-radius:50%;
+}
+
+.pad{
+  padding-right: 10px;
+  font-size: 1.5rem;
+}
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  border-radius: 100%;
+}
+.but:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  background-color: #ff0080;
+  color: white;
+}
+.but{
+  padding: 20px 60px;
+  border-radius: 30%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #730099;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
